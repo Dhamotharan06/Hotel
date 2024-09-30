@@ -1,0 +1,27 @@
+<style>
+    button{
+        background-color:red;
+        color:yellow;
+    }
+</style>
+
+<button onclick="update()">Add</button>
+<div id="result"></div>
+
+<script>
+    //selecting h1 tag
+    var result=document.getElementById("result")
+    function update()
+    
+    {
+    //creating a new element
+
+    
+    var element=document.createElement("h1")
+    element.textContent="hello"
+    result.append(element)
+    
+}
+    
+
+</script>
